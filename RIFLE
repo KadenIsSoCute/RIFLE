@@ -49,7 +49,7 @@ request(abcdef)
 if getgenv().RifleRank == "premium" then
 
         --//BLacklist check//--
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/KadenIsSoCute/Rifle-blacklist/main/README.md", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KadenIsSoCute/RIFLE/main/Blacklist", true))()
 
     local colors = {
         SchemeColor = Color3.fromRGB(55,55,55),
