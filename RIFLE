@@ -320,7 +320,7 @@ if getgenv().RifleRank == "premium" then
                     end)
                 
                     PlayerSection:NewButton("Animation changer", "Animation changer", function()
-                        loadstring(game:HttpGet("https://raw.githubusercontent.com/KadenIsSoCute/Animation-changer/main/README.md", true))()
+                        loadstring(game:HttpGet("https://pastebin.com/raw/hWNP0fgq", true))()
                     end)
 
                     PlayerSection:NewButton("Korblox [Client sided]", "Korblox", function()
