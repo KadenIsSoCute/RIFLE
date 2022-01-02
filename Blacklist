@@ -1,4 +1,4 @@
-BlackList = {3088713061, 711472248, 2284392016}
+BlackList = {3088713061, 711472248, 2284392016, 2937243134}
 
 if table.find(BlackList, game:GetService("Players").LocalPlayer.UserId) then
     game.ReplicatedStorage.MainEvent:FireServer("OneMoreTime")
