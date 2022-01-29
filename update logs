@@ -1,0 +1,10 @@
+        _G.version = 6.2
+        
+        
+        game.StarterGui:SetCore("SendNotification",  {
+            Title = "VERSION: ".._G.version;
+            Text = "Added superhuman and fixed free fist";
+            Icon = "";
+            Duration = 10;
+            Callback = NotificationBindable;
+           })
